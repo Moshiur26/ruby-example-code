@@ -1,0 +1,16 @@
+#1. Marshalling : The process of converting a live data structure or object into a flat set of
+    data that can be stored on disk, sent across a network, and then used to reconstruct
+    the original data structure or object elsewhere or at some other time.
+    Example:
+    a. PStore: can store object data in disk (object persistence)
+    b. YAML: YAML (standing for YAML Ain’t Markup Language) is a special text-based markup language that was 
+        designed as a data serialization format that’s readable by humans. we can use it in a similar way to PStore to
+        serialize data structures, but unlike PStore’s data, humans can easily read YAML data, and even directly edit
+        it with a text editor and a basic knowledge of YAML syntax
+
+
+#2. ActiveRecord : A library that abstracts databases, rows, columns, and SQL into
+    standard Ruby syntax using classes and objects. It’s a major part of the Ruby on Rails
+    framework
+
+#3  

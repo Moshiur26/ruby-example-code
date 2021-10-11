@@ -1,0 +1,31 @@
+#terminal command
+rdoc person.rb
+
+#:nodoc: Modifier
+# This is a class that does nothing
+class MyClass #:nodoc: all
+    # This method is documented (or is it?)
+    def some_method
+    end
+    def secret_method
+    end
+end
+
+
+# This is a class that does nothing
+class MyClass
+    # This method is documented
+    def some_method
+    end
+    def secret_method #:nodoc:
+    end
+end
+
+#Turning RDoc Processing On and Off
+#You can stop RDoc from processing comments temporarily using #++ and #-- , like so:
+# This section is documented and read by RDoc.
+#--
+# This section is hidden from RDoc and could contain developer
+# notes, private messages between developers, etc.
+#++
+# RDoc begins processing again here after the ++.

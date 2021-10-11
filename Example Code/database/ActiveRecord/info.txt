@@ -1,0 +1,3 @@
+ActiveRecord : A library that abstracts databases, rows, columns, and SQL into
+standard Ruby syntax using classes and objects. It’s a major part of the Ruby on Rails
+framework

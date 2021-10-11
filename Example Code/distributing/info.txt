@@ -1,0 +1,13 @@
+#1. The shebang line only needs to be in the file that’s initially run. It doesn’t need to be in library or
+    support files used by the main program.
+
+#2. shebang lines:
+    a.  #!/usr/bin/ruby
+    b.  #!/usr/bin/env ruby
+
+#3. Many UNIX-related operating systems (including most Linuxes and OS X) have a tool called env that stores the
+    location of certain applications and settings. You can use this tool to load Ruby without knowing its exact
+    location. For example:
+    #!/usr/bin/env ruby
+
+#4. 

@@ -1,0 +1,1 @@
+var search_data = {"index":{"searchIndex":["string","vowels()"],"longSearchIndex":["string","string#vowels()"],"info":[["String","","String.html","",""],["vowels","String","String.html#method-i-vowels","()",""]]}}

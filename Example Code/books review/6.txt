@@ -1,0 +1,15 @@
+• Module : An organizational element that collects together any number of classes,
+    methods, and constants into a single namespace.
+
+• Namespace : A named element of organization that keeps classes, methods, and
+    constants from clashing.
+
+• Mix-in : A module that can mix its methods in to a class to extend that class’s functionality.
+
+• Enumerable : A mix-in module, provided as standard with Ruby, that implements
+    iterators and list-related methods for other classes, such as collect , map , min , and
+    max . Ruby uses this module by default with the Array and Hash classes.
+
+• Comparable : A mix-in module, provided as standard with Ruby, that implements
+    comparison operators (such as < , > , and == ) on classes that implement the generic
+    comparison operator <=> .
