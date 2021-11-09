@@ -1,5 +1,5 @@
 #A lambda is a way to define a block & its parameters with some special syntax.
-#You can save this lambda into a variable for later use.
+#we can save this lambda into a variable for later use.
 
 say_something = -> { puts "This is a lambda" }
 say_something2 = lambda { puts "This is a lambda2" }

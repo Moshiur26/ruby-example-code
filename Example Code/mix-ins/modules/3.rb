@@ -7,7 +7,7 @@ end
 
 module Country
     class Ruler
-        attr_accessor :length
+        attr_accessor :name
     end
 end
 

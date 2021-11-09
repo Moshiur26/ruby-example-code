@@ -10,4 +10,9 @@
     location. For example:
     #!/usr/bin/env ruby
 
-#4. 
+#4. RUBY_PLATFORM : A special variable preset by Ruby that contains the name of the
+    current platform (environment).
+
+#5. Environment variables : Special variables set by the operating system or other
+    processes that contain information relevant to the current execution environment
+    and information about the operating system.

@@ -6,7 +6,7 @@ while i < 5
     i += 1
 end
 
-print "\n loop2: : "
+print "\nloop2: : "
 
 
 $i = 0

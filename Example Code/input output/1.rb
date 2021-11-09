@@ -1,5 +1,6 @@
 #1.
 lines = readlines
+puts "First Line: #{lines[0]}"
 puts lines.length
 
 #command to run : ruby 1.rb < data.txt

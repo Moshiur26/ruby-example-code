@@ -1,0 +1,12 @@
+Common Gateway Interface (CGI)
+
+A common way to make scripts available online is to upload them to web hosting providers as CGI scripts.
+Common Gateway Interface (CGI) is a standard that allows web server software (such as Apache or
+Microsoft IIS) to launch programs and send data back and forth between them and the web client.
+Many people associate the term CGI with the Perl language, as Perl has been the most common
+language with which to write CGI scripts. However, CGI is language agnostic, and you can just as easily write
+CGI scripts with Ruby (more easily, in fact!).
+
+In general, however, CGI execution is becoming unpopular due to its lack of speed and the need for
+a Ruby interpreter to be executed on every request. This makes CGI unsuitable for high-use or heavy-load
+situations.

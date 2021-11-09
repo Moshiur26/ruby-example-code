@@ -15,3 +15,18 @@ case color
 end
 
 print output + "\n"
+
+
+fruit = "orange"
+color = case fruit
+    when "orange"
+    "orange"
+    when "apple"
+    "green"
+    when "banana"
+    "yellow"
+    else
+    "unknown"
+end
+
+print color + "\n"

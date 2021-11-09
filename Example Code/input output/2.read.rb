@@ -1,17 +1,20 @@
 #1
 line_count = 0
-File.open("data.txt").each { |line| line_count += line.length }
-puts "line_count: #{line_count}"
+# File.open("data.txt").each { |line| line_count += line.length }
+File.open("data.txt").each { |line| line_count += 1 }
+puts "1.line_count: #{line_count}"
 
 #2
 line_count = 0
-File.new("data.txt", "r").each { |line| line_count += line.length }
-puts "line_count: #{line_count}"
+# File.new("data.txt", "r").each { |line| line_count += line.length }
+File.new("data.txt", "r").each { |line| line_count += 1 }
+puts "2.line_count: #{line_count}"
 
 #3
 line_count = 0
-File.open("data.txt").each(',') { |line| line_count += line.length }
-puts "line_count: #{line_count}"
+# File.open("data.txt").each(',') { |line| line_count += line.length }
+File.open("data.txt").each(',') { |line| line_count += 1 }
+puts "3.line_count: #{line_count}"
 
 #4
 line_count = 0

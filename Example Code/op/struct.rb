@@ -2,8 +2,13 @@
 Person = Struct.new(:name, :gender, :age)
 fred = Person.new("Fred", "male", 50)
 chris = Person.new("Chris", "male", 25)
+chris2 = Person.new("Chris2", "male")
+chris3 = Person.new()
+
 puts fred.age + chris.age
 
+puts "chris2.name: #{chris2.name}" 
+puts "chris3.name: #{chris3.name}" 
 
 #uper code is equivalent to this longhand method
 
@@ -13,6 +18,15 @@ class Person
         @name = name
         @gender = gender
         @age = age
+    end
+    def initialize(name, gender)
+        @name = name
+        @gender = gender
+    end
+    def initialize(name)
+        @name = name
+    end
+    def initialize
     end
 end
 

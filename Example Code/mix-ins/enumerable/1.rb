@@ -12,13 +12,13 @@ longest_word = ''
 my_array.each do |word|
     longest_word = word if longest_word.length < word.length
 end
-puts longest_word
+puts longest_word       # longest
 
 #some examples of the methods provided by Enumerable
 
-print "#{[1,2,3,4].collect { |i| i.to_s + "x" }}\n"
-print "#{[1,2,3,4].detect { |i| i.between?(2,4) }}\n"
-print "#{[1,2,3,4].select { |i| i.between?(2,4) }}\n"
-print "#{[1,2,3,4].sort}\n"
-print "#{[1,2,3,4].max}\n"
-print "#{[1,2,3,4].min}\n"
+print "#{[1,2,3,4].collect { |i| i.to_s + "x" }}\n"         # ["1x", "2x", "3x", "4x"]
+print "#{[1,2,3,4].detect { |i| i.between?(2,4) }}\n"       # 2
+print "#{[1,2,3,4].select { |i| i.between?(2,4) }}\n"       # [2, 3, 4]
+print "#{[1,2,3,4].sort}\n"     # [1, 2, 3, 4]
+print "#{[1,2,3,4].max}\n"      # 4
+print "#{[1,2,3,4].min}\n"      # 1

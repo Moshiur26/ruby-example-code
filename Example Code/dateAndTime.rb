@@ -44,6 +44,8 @@ puts Time.now.month
 puts Time.now.mday
 puts Time.now.yday
 
+puts 10.minutes     #600
+
 
 # hour A number representing the hour in 24-hour format ( 21 for 9 p.m., for example).
 # min The number of minutes past the hour.

@@ -1,0 +1,19 @@
+#   As a dynamic, interpreted language, Ruby is able to execute code created dynamically. The way to do this is
+    with the eval method.
+
+#   class_eval, module_eval , and instance_eval can evaluate code within the context of classes,
+    modules, and object instances, respectively.
+    class_eval is ideal for adding methods to a class dynamically:
+
+#   Binding : A representation of a scope (execution) context as an object.
+
+#   Forking : When an instance of a program duplicates itself into two processes, one as a
+    parent and one as a child, both continuing execution.   
+
+#   ainted data : This is data whose source or origin cannot be entirely trusted or is
+    unknown.
+
+#   Safe levels : Different safe levels result in the Ruby interpreter having different
+    restrictions upon what code it will process and execute.
+
+#   

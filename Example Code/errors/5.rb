@@ -3,7 +3,7 @@ catch(:finish) do
         x = rand(1000)
         throw :finish if x == 123
     end
-    puts "Genarated 1000 random numbers without genarating 123"
+    puts "1.Genarated 1000 random numbers without genarating 123"
 end
 
 
@@ -14,5 +14,5 @@ end
 
 catch(:finish) do
     1000.times { generate_random_number_except_123 }
-    puts "Generated 1000 random numbers without generating 123!!!!"
+    puts "2.Generated 1000 random numbers without generating 123!!!!"
 end

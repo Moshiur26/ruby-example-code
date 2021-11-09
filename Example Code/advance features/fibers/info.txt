@@ -1,0 +1,4 @@
+#   fibers are pragmatically similar to threads, but fibers aren’t scheduled to all run together. we
+    have to manually control the scheduling.
+    
+#

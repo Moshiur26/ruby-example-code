@@ -34,8 +34,10 @@ puts "x = #{x} , x+y = #{x+y}"          #x = 20 , x+y = 50
 puts "3 times good = #{"good "*3}"      #3 times good = good good good
 x = 10
 puts x.to_s+" is a number"                      #10 is a number
-puts "foobarfoobar".sub('bar', 'foo')           #foofoofoobar
-puts "foobarfoobar".gsub('bar', 'foo')          #foofoofoofoo
-puts "this is a test".sub(/^../, "hello")       #hellois is a test
-puts "this is a test".sub(/..$/, "hello")       #this is a tehello
 
+
+puts "String has vowels" if "This is a test" =~ /[aeiou]/
+puts "This1 is a test" =~ /[0-9]/           #4
+puts "String have digits" if "This is a test" =~ /[0-9]/    #this will not provide any output
+
+puts "<#>" if 0       #<#>
